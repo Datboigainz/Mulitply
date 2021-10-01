@@ -29,7 +29,8 @@ class ViewController: UIViewController
         var number2 = text2.text ?? "0"
         let myInt3 = Int(number2) ?? 0
   
-    var product = 
+        var product = myInt2 * myInt3
+        Label.text = "\(product)"
     
     
     }
